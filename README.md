@@ -28,3 +28,7 @@ int main() {
     return 0;
     // Memory freed automatically!
 }
+# Build commands
+- `make clean` - clean build
+- `make` - compile  
+- `make run` - run examples
