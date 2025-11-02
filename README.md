@@ -4,15 +4,15 @@ A easy-to-use string library for C programming language.
 
 ## What it does
 
-- 🚀 Lightweight - only basic string functions
+- 🚀 Lightweight - only basic string functions  
 - 🛡️ Safe memory with auto-cleanup
 - 📚 Simple API - easy to learn
 - 🔧 Works with normal C strings
 
 ## Quick Start
 
-main.c:
-
+**main.c:**
+```c
 #include "include/str.h"
 #include <stdio.h>
 
@@ -28,8 +28,3 @@ int main() {
     return 0;
     // Memory freed automatically!
 }
-
-# Build commands
-- `make clean` - clean build
-- `make` - compile  
-- `make run` - run examples
